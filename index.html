@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <style>
+        .random {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            height: 200px;
+            width: 200px;
+        }
+        .hide {
+            display: flex;
+            flex-direction: column;
+            height: 200px;
+            width: 200px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="random">
+        Random number.
+        <h1>-</h1>
+        <button onclick="random()">Generate random number</button>
+    </div>
+    <div class="hide">
+        <button onclick="hide()">Hide / show text</button>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit autem sequi ad ipsam aut soluta aspernatur voluptates voluptas, fuga magni laboriosam fugiat, voluptatibus iusto, explicabo nisi iste ducimus. Voluptatibus aut eveniet, illo, praesentium atque hic at aliquam debitis, quidem amet sequi quos earum aperiam voluptates nobis dolorem numquam eos? Eius.</p>
+    </div>
+</body>
+</html>
